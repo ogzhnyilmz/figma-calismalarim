@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    background-color: #F2EAE2;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.container img {
+    float: left;
+}
+
+.head {
+    padding-top: 32px;
+    padding-left: 332px;
+    color: #6C7289;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    letter-spacing: 5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.container h2 {
+    padding-top: 20px;
+    padding-left: 332px;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.text {
+    padding-top: 30px;
+    padding-left: 332px;
+    color: #6C7289;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.price {
+    padding-top: 20px;
+    padding-left: 332px;
+    color: #3D8168;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.price2 {
+    color: #6C7289;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    bottom: 25px;
+    left: 150px;
+
+}
+
+.container a {
+    color: white;
+    width: 137px;
+    height: 32px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: none;
+    text-decoration-skip-ink: none;
+    padding: 16px 72px;
+    background-color: #3D8168;
+    border-radius: 8px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    background-image: url('/assets/img/Cart.png');
+    background-repeat: no-repeat;
+    background-position: 50px;
+    
+}
